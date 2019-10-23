@@ -16,6 +16,7 @@ class TpIslemIptalIade implements InterfaceSoapActionMethod
      */
     public $GUID,
         $Durum,
+        $Tutar,
         $Dekont_ID;
 
 
@@ -26,11 +27,12 @@ class TpIslemIptalIade implements InterfaceSoapActionMethod
     private $soapAction = 'TP_Islem_Iptal_Iade';
 
 
-    public function __construct($guid, $durum, $dekontId)
+    public function __construct($guid, $durum, $dekontId, $tutar)
     {
 
         $this->GUID = $guid;
         $this->Durum = $durum;
+        $this->Tutar = $tutar;
         $this->Dekont_ID = $dekontId;
         $this->G = new G(Config::$CLIENT_CODE, Config::$CLIENT_USERNAME, Config::$CLIENT_PASSWORD);
     }
