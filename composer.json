@@ -1,11 +1,11 @@
 {
-    "name": "zeus/turkpos",
-    "description": "TURK Elektronik Para php sanal pos",
+    "name": "barisuzun/parampos",
+    "description": "Parampos php sanal pos",
     "license": "MIT",
     "authors": [
         {
-            "name": "dılo sürücü",
-            "email": "berxudar@gmail.com"
+            "name": "barisuzun",
+            "email": "barisuzn@gmail.com"
         }
     ],
     "require": {
