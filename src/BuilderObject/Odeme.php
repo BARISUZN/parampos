@@ -79,7 +79,7 @@ class Odeme implements InterfaceSoapActionMethod
         $this->Data3 = $dataUc;
         $this->Data4 = $dataDort;
         $this->Data5 = $dataBes;
-        $this->G = new G(10738, "test", "test");
+        $this->G = new G(Config::$CLIENT_CODE, Config::$CLIENT_USERNAME, Config::$CLIENT_PASSWORD);
 
 
         return $this;

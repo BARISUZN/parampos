@@ -27,7 +27,7 @@ class TpDekontIslemGonder implements InterfaceSoapActionMethod
         $this->GUID = $guid;
         $this->Dekont_ID = $decontId;
         $this->E_Posta = $email;
-        $this->G = new G(10738, "test", "test");
+        $this->G = new G(Config::$CLIENT_CODE, Config::$CLIENT_USERNAME, Config::$CLIENT_PASSWORD);
     }
 
 
