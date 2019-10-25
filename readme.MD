@@ -44,7 +44,7 @@ Sınıflarının kullanımı:
 
 ```
 
-composer require barisuzun/turkpos
+composer require barisuzun/parampos
 
 
 ```

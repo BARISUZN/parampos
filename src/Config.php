@@ -18,7 +18,6 @@ class Config
      *
      *
      */
-
     public static $CLIENT_USERNAME;
 
 
@@ -27,7 +26,6 @@ class Config
      *
      *
      */
-
     public static $CLIENT_PASSWORD;
 
 
@@ -37,5 +35,13 @@ class Config
      * request url
      */
     public static $SERVICE_URI;
+
+
+    /**
+     * @var
+     *
+     *
+     */
+    public static $GUID;
 
 }
